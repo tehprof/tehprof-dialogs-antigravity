@@ -17,6 +17,7 @@ phone calls, linked to their CRM (Bitrix24, amoCRM). You see exactly their lines
 - Deals on a stage or in a funnel now: `crm_stage_deals` (deals with title, amount, responsible person, created, on_stage_since, source and card link; funnel_id (and optional stage_id) from `crm_funnel_load`; the first page's `summary` totals ALL matching deals: count, sums per currency, per responsible; order newest/oldest/longest_on_stage, created_from/created_to, source (Bitrix24 only); paged by limit/page; record_id opens the customer in `crm_record`); same Analytics right and own-CRM-account reading.
 - A customer's voice note already transcribed in Dialogs reads as text in `messages_read` and in the dialogue lists; its `transcript` field says when it is not yet transcribed — then `voice_transcribe`.
 - Team reports: `manager_report`, then `manager_deal_moves` and `manager_activity_details`.
+- What people wrote across the dialogs («who promised to call back», «where was the price named», objections), counted by person, line, day or week: `messages_search` (query words, «|» between alternatives; side=staff/client; membership_id; default the last 30 days, at most 92) — judge the wording from the returned texts.
 - One counted question («how many…», by line, person or day, with the cases behind it): `facts`.
 
 Help: https://dialogs.tehprof.kz/help/ai-assistants/ · Support: support@tehprof.kz
