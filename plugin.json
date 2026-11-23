@@ -2,7 +2,7 @@
   "$schema": "https://antigravity.google/schemas/v1/plugin.json",
   "name": "tehprof-dialogs",
   "displayName": "TehProf Dialogs",
-  "version": "1.7.1",
+  "version": "1.8.0",
   "description": "Work with your TehProf Dialogs inbox (WhatsApp, Telegram, MAX, calls): who is waiting, callbacks, draft replies, CRM updates. Every send is confirmed by you.",
   "logo": "assets/logo.png",
   "suggestedPrompts": [
